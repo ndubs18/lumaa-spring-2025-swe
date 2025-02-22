@@ -4,7 +4,7 @@ Demo link: [https://drive.google.com/file/d/1MN_odtW7IFQ3xjoFNzj7hN-iwrjgvNjS/vi
 
 Thank you for taking the time to review my submission, I look forward to hearing back soon.
 
-Salary expectations per month: $2,600
+Salary expectations per month: $2,400
 
 ## Frontend
 
