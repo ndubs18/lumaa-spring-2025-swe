@@ -71,4 +71,3 @@ We spun this up with **Vite** but without all of the config files we have a basi
 ## Aside
 
 - Our backend start with the `--experimental-strip-types flag`. This is a feature of `Node v22.6` which allows us to develop and run our typescript without compiling with every change we make
->>>>>>> 5d4ce8f (challeng submission)
