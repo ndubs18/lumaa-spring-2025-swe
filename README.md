@@ -25,7 +25,7 @@ We spun this up with **Vite** but without all of the config files we have a basi
 
 #### Env variables
 
-3. Edit the template.env file to match your db credentials and change the
+3. Edit the /backend/example.env file to match your db credentials and change the
    the filename from `example.env` to `.env`
 
 | Key         |        Value        |
