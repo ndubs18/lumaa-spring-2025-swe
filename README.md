@@ -26,7 +26,8 @@ We spun this up with **Vite** but without all of the config files we have a basi
 #### Env variables
 
 3. Edit the /backend/example.env file to match your db credentials and change the
-   the filename from `example.env` to `.env`
+   the filename from `example.env` to `.env`.
+4. Change SECRET_KEY to a long randomized string for signing the json web token token.
 
 | Key         |        Value        |
 | ----------- | :-----------------: |
@@ -35,14 +36,14 @@ We spun this up with **Vite** but without all of the config files we have a basi
 | DB_HOST     | {your_db_hostnmane} |
 | DB_PORT     |   {your_db_port}   |
 | DB_NAME     |   {your_db_name}   |
-| SECRET_KEY  |  {HSA_256_secret}  |
+| SECRET_KEY  |  {HS256_secret_string}  |
 
 #### Database (PostgreSQL)
 
 **Connection String:** `postgres://{username}:{password}@{host}:{port}/{dbname}`
 
-4. Connect to your database with a postgres client (pgAdmin 4, psql, etc) using your credential or connection string provided above
-5. To initialize the tables that we need in the database, we need to execute a couple of queries against it:
+5. Connect to your database with a postgres client (pgAdmin 4, psql, etc) using your credential or connection string provided above
+6. To initialize the tables that we need in the database, we need to execute a couple of queries against it:
 
    Create users table:
 
@@ -65,8 +66,8 @@ We spun this up with **Vite** but without all of the config files we have a basi
 
 ### Running backend
 
-6. Execute command `npm run start` and the server should start on `http://localhost:3000`
-7. Now we should have a functional app! Open your browser and navigate to the frontend url `http://localhost:5173`
+7. Execute command `npm run start` and the server should start on `http://localhost:3000`
+8. Now we should have a functional app! Open your browser and navigate to the frontend url `http://localhost:5173`
 
 ## Aside
 
